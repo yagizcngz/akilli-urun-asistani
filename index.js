@@ -30,7 +30,6 @@ app.post('/api/chat', async (req, res) => {
             return keywords.some(keyword => keyword.length > 3 && textToSearch.includes(keyword));
         }).slice(0, 5);
 
-        // İŞTE SİLDİĞİMİZİ DÜŞÜNDÜĞÜN O PROMPT BURADA:
         // Her mesajda Gemini'a kim olduğunu ve elindeki ürünleri tekrar hatırlatıyoruz.
         const combinedPrompt = `
             KİMLİK: Sen Akıllı Ürün Asistanısın. 
