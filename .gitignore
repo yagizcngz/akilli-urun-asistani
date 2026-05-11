@@ -1,0 +1,19 @@
+# Güvenlik: API Anahtarlarını içeren dosya 
+.env
+
+# Bağımlılıklar: npm ile yüklenen kütüphane klasörü
+node_modules/
+
+# Log dosyaları: Hata kayıtları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Geçici dosyalar ve klasörler
+.vscode/
+.idea/
+*.swp
