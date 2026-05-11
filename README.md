@@ -4,12 +4,12 @@ Gemini AI destekli, products.json veri seti üzerinden RAG (Retrieval-Augmented 
 🛠️ Kurulum Adımları
 Node.js Yükleyin: Bilgisayarınızda Node.js LTS sürümünün kurulu olduğundan emin olun.
 
-Projeyi Klonlayın: ```bash
+Projeyi Klonlayın: 
 git clone
 
 Bağımlılıkları Yükleyin:
 
-Bash
+
 npm install
 Çevre Değişkenlerini Ayarlayın: * .env.example dosyasının adını .env olarak değiştirin.
 
@@ -18,8 +18,8 @@ Google AI Studio üzerinden aldığınız API anahtarını ilgili alana ekleyin.
 ⚡ Çalıştırma
 Sunucuyu başlatmak için şu komutu kullanın:
 
-Bash
 npm start
+ya da node index.js
 Not: Sunucu varsayılan olarak http://localhost:3000 adresinde aktif olacaktır.
 
 🔌 API Kullanımı (Endpoint)
